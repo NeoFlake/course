@@ -15,9 +15,7 @@ class CoursesController extends Controller
      */
     public function homeAction(){
 
-        $response = new Response("index.html");
-
-        return $response;
+        return $this->render("index.html");
 
     }
 
