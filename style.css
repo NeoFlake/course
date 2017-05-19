@@ -1,0 +1,71 @@
+@font-face {
+  src: url("fonts/HB Sketch Demo.otf");
+  font-family: "Sketch";
+}
+@font-face {
+  src: url("fonts/tradizional DEMO.otf");
+  font-family: "Traditional";
+}
+body {
+  margin: 0;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+h1 {
+  padding: 1em;
+  font-family: "Traditional",serif;
+  letter-spacing: 0.8em;
+  font-size: 5em;
+}
+
+.input-text {
+  max-width: 600px;
+}
+.control-label {
+  margin-right: 1em;
+  padding-bottom: 18px;
+  font-family: "Traditional",serif;
+  font-size: 2.5em;
+}
+
+.control-label:nth-child(2) {
+  margin-left: 1em;
+}
+
+input {
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid transparent;
+  border-bottom: 1px solid gray;
+}
+input:last-child {}
+
+.content {
+  margin-top: 3em;
+  background-image: url("paper.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  border-radius: 10%;
+}
+span {
+  width: 15em;
+  height: auto;
+}
+
+li {
+  font-family: "Sketch";
+  letter-spacing: .5em;
+  padding-top: 1.1em;
+  color: navy;
+  font-size: 1.5em;
+  list-style: none;
+}
+li:hover {
+  color: red;
+  transition: all .05s ease;
+}
