@@ -9,8 +9,20 @@ use Symfony\Component\HttpFoundation\Response;
 
 class CoursesController extends Controller
 {
+
     /**
-     * @Route("/course", name="homepage")
+     * @Route("/", name="homepage")
+     */
+    public function homeAction(){
+
+        $response = new Response("index.html");
+
+        return $response;
+
+    }
+
+    /**
+     * @Route("/course", name="liste")
      */
     public function indexAction(Request $request){
 
